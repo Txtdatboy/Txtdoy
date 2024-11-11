@@ -26,7 +26,7 @@ bot = Client(
     "bot",
     api_id=28328736,
     api_hash= "802254a44896baa87f3083b7af36b2e5",
-    bot_token= "6755775439:AAGkahjp3xK71u-jG6V0uQUR-xJgqLPt9yw")
+    bot_token= "8056108426:AAH7djs4PZ1Ip4d6OejkJzFFMbz7qQTIig8")
 
 cookies_file_path = "modules/cookies.txt"
 @bot.on_message(filters.command(["start"]))
