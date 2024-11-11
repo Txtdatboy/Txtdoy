@@ -24,9 +24,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 bot = Client(
     "bot",
-    api_id=28328736,
-    api_hash= "802254a44896baa87f3083b7af36b2e5",
-    bot_token= "6755775439:AAGkahjp3xK71u-jG6V0uQUR-xJgqLPt9yw")
+    api_id=27416678,
+    api_hash= "617ba8c82f25e3143fe44881bb6f36b1",
+    bot_token= "7641017086:AAGCJ5OC7VS-m9tmDIUjj1P_9PmfOZ3tcjs")
 
 cookies_file_path = "modules/cookies.txt"
 @bot.on_message(filters.command(["start"]))
@@ -184,8 +184,8 @@ async def account_login(bot: Client, m: Message):
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
             try:
                 
-                cc = f'**[🎬] Vid_ID : {str(count).zfill(3)}**\n**Title : ** {name}\n**Batch Name :** {raw_text0}\n\n**Downloaded by : {raw_text3}**\n\n'
-                cc1 = f'**[📕] Pdf_ID : {str(count).zfill(3)}**\n**Title : ** {name}\n**Batch Name :** {raw_text0}\n\n**Downloaded by : {raw_text3}**\n\n'
+                cc = f'**[🎬] Vid_ID : {str(count).zfill(3)}**\n**Title : ** {name}\n**Batch Name :** {raw_text0}\n\n`
+                cc1 = f'**[📕] Pdf_ID : {str(count).zfill(3)}**\n**Title : ** {name}\n**Batch Name :** {raw_text0}\n\n`
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -211,7 +211,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**⥥ Downloading »**\n\n**Name »** `{name}\nQuality » {raw_text2}` \n\n**Bot By ➤ **Jadugar"
+                    Show = f"**⥥ Downloading »**\n\n**Name »** `{name}\nQuality » {raw_text2}` \n\n**Bot By ➤ **shivam"
                
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
